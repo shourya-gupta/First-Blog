@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+ <body>
+<form action=” submitme.php” method=”post”>
+<label for =” username” >  Username: </label>
+<input type=” text”  name= ” username”  value=”” >
+<br>
+<label for =” password” > Password: </label>
+<input type=” password”  name= ”password”  value= “’ >
+<br>
+<textarea row=” 5”  col=” 20”>add more content </textarea>
+<br>
+<select>
+<option value=” 1”>Select 1 </option>
+<option value=” 2”>Select 2 </option>
+<option value=” 3”>Select 3 </option>
+</select>
+<br>
+<input type=” radio” name=” radiobutton”  value=” html”>
+HTML
+<input type=” radio”  name=” radiobutton”  value=”css”>
+CSS
+<br>
+<input type=” checkbox”  name=” checkbutton1”  value=” html”>
+HTML
+<input type=” checkbox”  name=”checkbutton2”  value=” css”>
+CSS
+<br>
+<input type=” submit”  value=”Submit”>
+</form>
+  </body>
+</html>
+
