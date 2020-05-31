@@ -1,0 +1,140 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+margin: 0;
+padding: 0;
+border: 0;
+width: 100%;
+background: #AAF3DA;
+color: #666;
+font-family: 'Open Sans', sans-serif;
+}
+a {
+color: #1E6FFF;
+}
+a:hover {
+color: #fff;
+background: #1E6FFF;
+text-decoration: none;
+}
+h1, h2, h3 {
+padding: 0;
+}
+p {
+padding: 0;
+}
+img {
+width:10%;
+}
+/* Navigation styles */
+nav {
+width: 100%;
+}
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #444;
+text-align: center;
+}
+nav li {
+float: left;
+font-family: 'Open Sans', sans-serif;
+font-size: 1.2em;
+line-height: 40px;
+height: 40px;
+border-bottom: 1px solid #393434;
+}
+nav a {
+text-decoration: none;
+color: #fff;
+display: block;
+text-transform: uppercase;
+padding: 4px;
+font-weight: bold;
+width: 120px;
+}
+nav a:hover, a:active {
+background-color: ##009BFF;
+}
+section {
+float: left;
+margin: 5px;
+border: solid 1px #ccc;
+text-align:center;
+}
+#one {
+padding: 15px;
+width: 910px;
+color: #218560;
+font-size:70px;
+font-weight: bold;
+border:none;
+margin-bottom:30px;
+background: url(https://images.squarespace-cdn.com/content/v1/55d4f723e4b0e0ffdf4c5b32/1489349903865-LKBLYQIFXU5NKHIMUKVA/ke17ZwdGBToddI8pDm48kOJUkPel2MmYJz6O7cfhLLxZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PIyU4ik9LIdE4MxB37Mbk9gErlPd7zdzGzJf8XYoPAV8UKMshLAGzx4R3EDFOm1kBS/Contact-me-11-940x518.jpg?format=2500w);
+height: 480px;
+}
+#shourya {
+padding: 5px;
+width: 960px;
+margin: 20px auto;
+}
+header {
+height: 100px;
+padding: 0 15px;
+}
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #064C0E;
+}
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+footer {
+clear: both;
+padding: 0 15px;
+}
+@media screen and (max-width: 960px) {
+#shourya {
+width: 100%;
+}
+nav a {
+width: 80px;
+}
+}
+@media screen and (max-width: 600px) {
+header {
+height: 50px;
+padding: 0;
+}
+nav a {
+width: 100%;
+padding:0 2px;
+margin:2px;
+}
+nav li {
+font-size: 0.7em;
+line-height: 20px;
+height: 20px;
+}
+h1, h2 {
+font-size: 1em;
+}
+.headingtext {
+display: none;
+}
