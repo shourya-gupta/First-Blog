@@ -1,4 +1,4 @@
-# shourya
+# FIRST - BLOG
 
 ## My first ever website solely made by me
 
